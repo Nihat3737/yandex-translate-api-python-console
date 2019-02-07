@@ -97,7 +97,7 @@ def clean_sure_question():
     while True:
         intext = "Son arananlar silinecek emin misiniz? [Y/n]: "
         inputtemp = input(intext).lower().strip()
-        if inputtemp == "y" or inputtemp == "yes":
+        if inputtemp == "y" or inputtemp == "yes" or inputtemp == "":
             return True
         elif inputtemp == "n" or inputtemp == "no":
             return False
